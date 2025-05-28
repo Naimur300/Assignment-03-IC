@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolQuest</title>
+    <!-- Tailwind link -->
+     <link rel="stylesheet" href="./output.css">
+     <style>
+         
+
+    html, body {
+      min-height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .nav{
+        margin: 0 auto;
+    }
+    
+        @media (max-width: 639px) {
+        .gap-mobile-150 {
+                gap: 120px;
+        }
+        .w-h-cer-mobile{
+            width: 135px;
+            height: 135px;
+        }
+        .w-h-mobile{
+            width: 100px;
+            height: 70px;
+        }
+        .mobile-m{
+            margin: 0 auto;
+        }
+        .mobile-justify-center{
+            justify-content: center;
+            margin-top: 8px;
+        }
+        .mobile-res{
+            margin: 0 auto;
+        }
+        .moile-text-center{
+            text-align: center;
+        }
+        .margin-cer-bottom{
+            margin-bottom: 15px;
+        }
+        .mobile-mx-auto {
+            margin: 0 auto;
+        }
+        .submit-form{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .mobile-w-300{
+            width: 300px;
+            font-size: 17px;
+        }
+    }
+</style>
+
+
+
+     </style>
+</head>
+<body class="vh-100">
+    <!-- Navbar and Heading-->
+
+    <div class="header bg-[url(/Images/Hero-background.png),url(/Images/Hero-second-background.png)] bg-[rgba(26, 26, 26, 0.5)]   bg-center h-auto w-screen  mb-10 pt-6" >
+        
+        <div class="nav w-[450px] sm:w-[550px] md:w-[700px] lg:w-[950px] xl:w-[1140px] bg-white rounded-[35px] h-auto flex flex-col md:flex-row lg:flex-row justify-between p-1 items-center">
+            <div class="ml-5">
+                <img src="/Images/logo.png" alt="">
+            </div>
+            <div class="flex justify-center md:justify-start lg:justify-start">
+                <ul class="flex flex-col md:flex-row lg:flex-row gap-5">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Past Work</a></li>
+                    <li><a href="">Reviews</a></li>
+                </ul>
+            </div>
+            
+                <button class="w-[178px] h-[56px] bg-green-900 rounded-[28px] text-white">
+                        Get Free Quote
+                </button>
+            
+        </div>
+
+        <div class="hero-content-container mt-24 mx-auto w-[450px] sm:w-[550px] md:w-[700px] lg:w-[950px] xl:w-[1140px] flex flex-col sm:flex-col md:flex-col lg:flex-row md:justify-center gap-mobile-150 md:gap-10 sm:gap-32 lg:gap-0">
+            <div class="hero-left md:w-full lg:w-[600px]">
+                <h1 class="text-white mb-5 font-bold text-[24px] sm:text-[28px] md:text-[32px] mobile-w-rel  lg:text-[48px] xl:text-[64px] lg:w-[390px] xl:w-[600px] leading-[72px] moile-text-center sm:text-center md:text-center lg:text-start">Reliable HVAC for Every Season</h1>
+                <div class="flex flex-col gap-3 mobile-w-300 sm:w-[315px] md:w-[324px] mobile-mx-auto sm:mx-auto md:mx-auto lg:w-full text-[18px]">
+                <div class="flex gap-2">
+                    <img src="/Images/checkmark-badge-01.png" class="w-[24px] h-[24px]" alt="">
+                    <p class="text-white leading-none">Certified & Experienced Technicians</p>
+                </div>
+                <div class="flex gap-2">
+                    <img src="/Images/alarm-clock.png" class="w-[24px] h-[24px]" alt="">
+                    <p class="text-white leading-none">Fast, Reliable Service</p>
+                </div>
+                <div class="flex gap-2">
+                    <img src="/Images/hot-price.png" class="w-[24px] h-[24px]" alt="">
+                    <p class="text-white leading-none">Transparent, Affordable Pricing</p>
+                </div>
+                </div>
+                
+                
+                
+                <div class="submit-form w-[390px] h-[110px] bg-white rounded-[8px] grid grid-cols-2 gap-2 p-2.5 mt-10 mb-10 mobile-mx-auto sm:mx-auto md:mx-auto lg:mx-0">
+
+                    <input  class="w-[180px] h-[40px] border border-green-800  focus:outline-none active:outline-none pl-3 rounded-[8px]" type="text" placeholder="name">
+                    <input  class="w-[180px] h-[40px] border border-green-800  focus:outline-none active:outline-none pl-3 rounded-[8px]" type="text" placeholder="name">
+                    <div class="relative">
+                        <input  class="w-[180px] h-[40px] border border-green-800  focus:outline-none active:outline-none pl-3 rounded-[8px] " type="" placeholder="Services"> <img class="h-4 w-4 absolute bottom-[27%] left-[45%]" src="/Images/arrow-down-01.png" alt="">
+                    </div>
+                    
+                    
+                    <button class="btn bg-green-800 w-[180px] h-[40px] text-white rounded-[8px]">Submit</button>
+
+                </div>
+                <h2 class="font-normal text-[16px] text-white margin-cer-bottom moile-text-center sm:text-center md:text-center lg:text-start">Certified Installer</h2>
+                <div class="flex gap-10 mt-2.5 mobile-res sm:justify-center md:justify-center lg:justify-start mb-10">
+                    <img src="/Images/layer102.png" alt="">
+                    <img src="/Images/Group 1.png" alt="">
+                    <img src="/Images/Group 2.png" alt="">
+                </div>
+            </div>
+            <div class="hero-right sm:w-full md:w-full lg:w-[600px] md:mt-20 mb-5 sm:mb-10  md:mb-5 lg:mt-0 lg:mb-0 xl:mb-0">
+                <div class="relative w-[350px] h-[190px] sm:w-[420px] sm:h-[200px] md:w-[500px] lg:w-full md:h-[280px] lg:h-[300px] xl:w-[555px] xl:h-[310px] bg-white rounded-tl-[450px] rounded-r-[10px] mb-2 mobile-m sm:mx-auto md:mx-auto">
+                    <div class="absolute bottom-0">
+                        <img class="" src="/Images/hero model.png" alt="">
+                    </div>
+                    
+                    <img class="absolute w-h-cer-mobile sm:w-[160px] sm:h-[160px] md:w-[200px] md:h-[200px] lg:w-[200px] lg:h-[200px] top-[0%] left-[0%]" src="/Images/warranty.png" alt="">
+                    <div class="bg-white w-h-mobile sm:w-[120px] sm:h-[70px] md:w-[140px] md:h-[84px] lg:w-[140px] lg:h-[84px] rounded-[12px] shadow-lg p-2.5 absolute left-[8%] bottom-[4%]">
+                        <img class="mx-auto" src="/Images/google.png" alt="">
+                        <h4 class="text-center">4.8 <span class="text-gray-400">(698)</span></h4>
+                    </div>
+                </div>
+                <div class="flex gap-1.5 mobile-justify-center sm:justify-center md:justify-center">
+                    <img class="w-[172px] sm:w-[207px] md:w-[247px] lg:w-[50%] xl:w-[275px]" src="/Images/past work one.png" alt="">
+                    <img class="w-[172px] sm:w-[207px] md:w-[247px] lg:w-[50%] xl:w-[275px]" src="/Images/past work two.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar and Heading-->
+
+</body>
+</html>
